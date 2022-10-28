@@ -1,0 +1,151 @@
+<head>
+     <link rel="stylesheet" href="design.css">
+     <title>» Trinkspiel</title>
+     <meta name="viewport" content="initial-scale=0.5"/>
+     <meta charset="utf-8">
+     <link rel="icon" href="logo.ico">
+</head>
+
+<body style="background-color: #E0FFFF">
+	<br></br>
+	<center><img src="https://i.imgur.com/7uW06VD.png"></img></center>
+	<p></p>
+	<center><a href="https://drive.google.com/file/d/1sISPpxaMjra_KZitj1ERsIpceTDR-kSM/view?usp=sharing" target="_blank"><img src="https://i.imgur.com/rw3iX0c.png"></img></a></center>
+	<br></br>
+	<p></p>
+	<center><button class="button button4" type ="button" onclick="displayImage()">Neue Spielkarte ziehen</button></center>
+	<br></br>
+	<br></br>
+	<center><div class="card" id="pic"></div></center>
+  <h2></h2>
+  <name></name>
+</body>
+
+<script>
+var karte1 = "<img src = 'https://i.imgur.com/kdgvBvD.png'>";
+var karte2 = "<img src = 'https://i.imgur.com/8lq3bUw.png'>";
+var karte3 = "<img src = 'https://i.imgur.com/QMTPb8E.png'>";
+var karte4 = "<img src = 'https://i.imgur.com/1EmgVcA.png'>";
+var karte5 = "<img src = 'https://i.imgur.com/62Org5d.png'>";
+var karte6 = "<img src = 'https://i.imgur.com/r2K5BDi.png'>";
+var karte7 = "<img src = 'https://i.imgur.com/SbyYIUW.png'>";
+var karte8 = "<img src = 'https://i.imgur.com/sUpuelr.png'>";
+var karte9 = "<img src = 'https://i.imgur.com/McQIrt0.png'>";
+var karte10 = "<img src = 'https://i.imgur.com/M6Ng6s1.png'>";
+var karte11 = "<img src = 'https://i.imgur.com/QQRhcOZ.png'>";
+var karte12 = "<img src = 'https://i.imgur.com/YpkKHRE.png'>";
+var karte13 = "<img src = 'https://i.imgur.com/Cy96UFZ.png'>";
+var karte14 = "<img src = 'https://i.imgur.com/7r4L3qZ.png'>";
+var karte15 = "<img src = 'https://i.imgur.com/zkPBsA2.png'>";
+var karte16 = "<img src = 'https://i.imgur.com/LJMAht5.png'>";
+var karte17 = "<img src = 'https://i.imgur.com/5msImHQ.png'>";
+var karte18 = "<img src = 'https://i.imgur.com/r9TE5dP.png'>";
+var karte19 = "<img src = 'https://i.imgur.com/B1G6rtO.png'>";
+var karte20 = "<img src = 'https://i.imgur.com/FaHwiKK.png'>";
+var karte21 = "<img src = 'https://i.imgur.com/kaXh88q.png'>";
+var karte22 = "<img src = 'https://i.imgur.com/OZM3GCC.png'>";
+var karte23 = "<img src = 'https://i.imgur.com/aS56NCt.png'>";
+var karte24 = "<img src = 'https://i.imgur.com/ftxR7Sb.png'>";
+var karte25 = "<img src = 'https://i.imgur.com/nOowREs.png'>";
+var karte26 = "<img src = 'https://i.imgur.com/73CWOuC.png'>";
+var karte27 = "<img src = 'https://i.imgur.com/S4Nt0Js.png'>";
+var karte28 = "<img src = 'https://i.imgur.com/cRcR0lB.png'>";
+var karte29 = "<img src = 'https://i.imgur.com/Yfypp5d.png'>";
+var karte30 = "<img src = 'https://i.imgur.com/z2trpvk.png'>";
+var karte31 = "<img src = 'https://i.imgur.com/qQadFOf.png'>";
+var karte32 = "<img src = 'https://i.imgur.com/zXxvVkG.png'>";
+var karte33 = "<img src = 'https://i.imgur.com/uqdeYbm.png'>";
+var karte34 = "<img src = 'https://i.imgur.com/uFXwLOB.png'>";
+var karte35 = "<img src = 'https://i.imgur.com/B7w7jDF.png'>";
+var karte36 = "<img src = 'https://i.imgur.com/mz56WMN.png'>";
+var karte37 = "<img src = 'https://i.imgur.com/6Qevq0b.png'>";
+var karte38 = "<img src = 'https://i.imgur.com/c1wnnGd.png'>";
+var karte39 = "<img src = 'https://i.imgur.com/tUkyt1T.png'>";
+var karte40 = "<img src = 'https://i.imgur.com/JyfyL4d.png'>";
+var karte41 = "<img src = 'https://i.imgur.com/ZROpL6Q.png'>";
+var karte42 = "<img src = 'https://i.imgur.com/ugsWAuk.png'>";
+var karte43 = "<img src = 'https://i.imgur.com/dGLlE6J.png'>";
+var karte44 = "<img src = 'https://i.imgur.com/Nkfi0Tc.png'>";
+var karte45 = "<img src = 'https://i.imgur.com/1UQvFTM.png'>";
+var karte46 = "<img src = 'https://i.imgur.com/AY6B1HR.png'>";
+var karte47 = "<img src = 'https://i.imgur.com/Cfhdoyd.png'>";
+var karte48 = "<img src = 'https://i.imgur.com/9weFi42.png'>";
+var karte49 = "<img src = 'https://i.imgur.com/NFnMv5A.png'>";
+var karte50 = "<img src = 'https://i.imgur.com/i79WlK5.png'>";
+var karte51 = "<img src = 'https://i.imgur.com/PMPuL8b.png'>";
+var karte52 = "<img src = 'https://i.imgur.com/oVdEFAm.png'>";
+var karte53 = "<img src = 'https://i.imgur.com/QCtmnEF.png'>";
+var karte54 = "<img src = 'https://i.imgur.com/04po3wL.png'>";
+var karte55 = "<img src = 'https://i.imgur.com/Fpxjbd5.png'>";
+var karte56 = "<img src = 'https://i.imgur.com/DUo1K3f.png'>";
+var karte57 = "<img src = 'https://i.imgur.com/YHUf81B.png'>";
+var karte58 = "<img src = 'https://i.imgur.com/pwZrply.png'>";
+var karte59 = "<img src = 'https://i.imgur.com/pa3e1Ik.png'>";
+var karte60 = "<img src = 'https://i.imgur.com/ofIsv6c.png'>";
+var karte61 = "<img src = 'https://i.imgur.com/zXbFXvx.png'>";
+var karte62 = "<img src = 'https://i.imgur.com/39NiYWK.png'>";
+var karte63 = "<img src = 'https://i.imgur.com/XjVz4pE.png'>";
+var karte64 = "<img src = 'https://i.imgur.com/uphfeqj.png'>";
+var karte65 = "<img src = 'https://i.imgur.com/OgYLIOl.png'>";
+var karte66 = "<img src = 'https://i.imgur.com/tX7Eyxn.png'>";
+var karte67 = "<img src = 'https://i.imgur.com/9ByHtTm.png'>";
+var karte68 = "<img src = 'https://i.imgur.com/k1vBHtV.png'>";
+var karte69 = "<img src = 'https://i.imgur.com/yMFOs9I.png'>";
+var karte70 = "<img src = 'https://i.imgur.com/lvChdpH.png'>";
+var karte71 = "<img src = 'https://i.imgur.com/lwf9SQw.png'>";
+var karte72 = "<img src = 'https://i.imgur.com/rPnYDFR.png'>";
+var karte73 = "<img src = 'https://i.imgur.com/4vi3rE4.png'>";
+var karte74 = "<img src = 'https://i.imgur.com/shkNAjE.png'>";
+var karte75 = "<img src = 'https://i.imgur.com/bamW1fy.png'>";
+var karte76 = "<img src = 'https://i.imgur.com/pEz3qQl.png'>";
+var karte77 = "<img src = 'https://i.imgur.com/La7vwQX.png'>";
+var karte78 = "<img src = 'https://i.imgur.com/Amdejpt.png'>";
+var karte79 = "<img src = 'https://i.imgur.com/cnH1ZPL.png'>";
+var karte80 = "<img src = 'https://i.imgur.com/fi91h3g.png'>";
+var karte81 = "<img src = 'https://i.imgur.com/OLASZcx.png'>";
+var karte82 = "<img src = 'https://i.imgur.com/XrqGt2G.png'>";
+var karte83 = "<img src = 'https://i.imgur.com/9x0wy4H.png'>";
+var karte84 = "<img src = 'https://i.imgur.com/m3Dbnz3.png'>";
+var karte85 = "<img src = 'https://i.imgur.com/K8XvQ0I.png'>";
+var karte86 = "<img src = 'https://i.imgur.com/NH4gVgz.png'>";
+var karte87 = "<img src = 'https://i.imgur.com/rTwv88m.png'>";
+var karte88 = "<img src = 'https://i.imgur.com/KMZG2Zt.png'>";
+var karte89 = "<img src = 'https://i.imgur.com/fNgyeWg.png'>";
+var karte90 = "<img src = 'https://i.imgur.com/kDOMpYg.png'>";
+var karte91 = "<img src = 'https://i.imgur.com/hiygnUT.png'>";
+var karte92 = "<img src = 'https://i.imgur.com/d4favFG.png'>";
+var karte93 = "<img src = 'https://i.imgur.com/8SO60jL.png'>";
+var karte94 = "<img src = 'https://i.imgur.com/ILRXYvJ.png'>";
+var karte95 = "<img src = 'https://i.imgur.com/UcI1Ezb.png'>";
+var karte96 = "<img src = 'https://i.imgur.com/rYu1C2B.png'>";
+var karte97 = "<img src = 'https://i.imgur.com/LeO8NvG.png'>";
+var karte98 = "<img src = 'https://i.imgur.com/Z8wuuCl.png'>";
+var karte99 = "<img src = 'https://i.imgur.com/63EI9yr.png'>";
+var karte100 = "<img src = 'https://i.imgur.com/7KE5g4H.png'>";
+var karte101 = "<img src = 'https://i.imgur.com/7yguWiq.png'>";
+var karte102 = "<img src = 'https://i.imgur.com/qVtKi4f.png'>";
+var karte103 = "<img src = 'https://i.imgur.com/X4dC7iL.png'>";
+var karte104 = "<img src = 'https://i.imgur.com/bClbLG2.png'>";
+var karte105 = "<img src = 'https://i.imgur.com/oergMkz.png'>";
+var karte106 = "<img src = 'https://i.imgur.com/4P3BrR4.png'>";
+var karte107 = "<img src = 'https://i.imgur.com/P1F7kmk.png'>";
+var karte108 = "<img src = 'https://i.imgur.com/81mS8FI.png'>";
+var karte109 = "<img src = 'https://i.imgur.com/fhhhEzc.png'>";
+var karte110 = "<img src = 'https://i.imgur.com/GZ6atM9.png'>";
+var karte111 = "<img src = 'https://i.imgur.com/L8Qf4U6.png'>";
+var karte112 = "<img src = 'https://i.imgur.com/JOkiYoG.png'>";
+var karte113 = "<img src = 'https://i.imgur.com/1LeX9dF.png'>";
+var karte114 = "<img src = 'https://i.imgur.com/dGX8SkM.png'>";
+var karte115 = "<img src = 'https://i.imgur.com/X7k68Jp.png'>";
+
+
+var images = [karte1, karte2, karte3, karte4, karte5, karte6, karte7, karte8, karte9, karte10, karte11, karte12, karte13, karte14, karte15, karte16, karte17, karte18, karte19, karte20, karte21, karte22, karte23, karte24, karte25, karte26, karte27, karte28, karte29, karte30, karte31, karte32, karte33, karte34, karte35, karte36, karte37, karte38, karte39, karte40, karte41, karte42, karte43, karte44, karte45, karte46, karte47, karte48, karte49, karte50, karte51, karte52, karte53, karte54, karte55, karte56, karte57, karte58, karte59, karte60, karte61, karte62, karte63, karte64, karte65, karte66, karte67, karte68, karte69, karte70, karte71, karte72, karte73, karte74, karte75, karte76, karte77, karte78, karte79, karte80, karte81, karte82, karte83, karte84, karte85, karte86, karte87, karte88, karte89, karte90, karte91, karte92, karte93, karte94, karte95, karte96, karte97, karte98, karte99, karte100, karte101, karte102, karte103, karte104, karte105, karte106, karte107, karte108, karte109, karte110, karte111, karte112, karte113, karte114, karte115]
+var names = ["Spongebob Squarepants", "Patrick Star", "Squidward Tentacles", "Sandy Cheeks", "Eugene Krabs", "Larry Lobster"]
+function displayImage(){
+  var rn = Math.random();
+  rn = rn*115;
+  rn = Math.floor(rn);
+  document.getElementById("pic").innerHTML=images[rn];
+  document.getElementById("name").innerHTML=names[rn];
+}
+</script>
